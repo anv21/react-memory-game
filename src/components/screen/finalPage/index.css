@@ -1,0 +1,18 @@
+.congratulations-content {
+    text-align: center;
+    font-size: 25px;
+    line-height: 1.5;
+}
+
+.congratulations-img {
+    width: 240px;
+    margin: 0 auto;
+    display: block;
+}
+
+.button-container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}

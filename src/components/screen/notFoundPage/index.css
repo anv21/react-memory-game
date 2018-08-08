@@ -1,0 +1,15 @@
+.not-found-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    text-align: center;
+}
+.not-found-page-container > .button {
+    margin-top: 20px;
+}
+
+.not-found-page-container > img {
+    width: 450px;
+    height: 350px;
+}

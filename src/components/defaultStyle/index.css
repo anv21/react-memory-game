@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Aldrich|Chivo|Julius+Sans+One');
+
+@import url('../Header/index.css');
+@import url('../MainVeiw/index.css');
+@import url('../GameOption/index.css');
+@import url('../Game/Card/index.css');
+@import url('../screen/finalPage/index.css');
+@import url('../Score/index.css');
+@import url('../screen/notFoundPage/index.css');
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url("../Game/img/bg.png");
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: 'Chivo', sans-serif;
+  color: white;
+  font-size: 18px;
+}
+
+header, main, footer {
+  padding: 15px;
+}
+
+.button {
+  padding: 10px;
+  border: none;
+  background-color: #23debb;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 800;
+  font-family: 'Julius Sans One', sans-serif;
+  outline: transparent;
+  text-decoration: none;
+  width: 170px;
+  margin: 0 5px;
+  background-color: rgba(33, 145, 112, 0.3);
+  border-radius: 20px;
+}
+
+.button:hover {
+  background-color: rgba(33, 145, 112, 0.8);
+}
+
+.button:active {
+  border: none;
+}
+
+.heading {
+  text-align: center;
+  color: white;
+  font-family: 'Aldrich', sans-serif;
+  font-size: 40px;
+}
+
+.timer {
+  text-align: center;
+}
+
+.game-cards-field {
+  max-width: 1500px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}

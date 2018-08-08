@@ -1,0 +1,18 @@
+table {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+tr:nth-child(even) {
+    background: #85bbff;
+}
+
+tr:hover {
+    background: #aeeeff;
+    color: #00005e;
+}
+
+td {
+    padding: 10px;
+}

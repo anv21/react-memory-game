@@ -1,0 +1,51 @@
+.game-options__field {
+    margin: 5px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.game-options__form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.game-options__form label {
+    margin-bottom: 5px;
+}
+
+.game-options__form input, select {
+    padding: 5px;
+    font-size: 16px;
+}
+
+.game-options__form label > input[type=radio] {
+    visibility: hidden;
+    position: absolute;
+}
+
+.checked,
+.game-option-image:hover {
+    box-shadow: 0 2px 19px 6px #277947;
+}
+
+.game-options__form .radio-bth {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.game-options__form select {
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+.game-option-image {
+    width: 110px;
+    height: 140px;
+    border-radius: 20px;
+    margin-left: 10px;
+}

@@ -1,0 +1,50 @@
+.cards-game-field {
+    max-width: 1500px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.card {
+    margin: 15px;
+    border: 1px #ccc solid;
+    cursor: pointer;
+    transition: all .4s linear;
+    transform-style: preserve-3d;
+    display: block;
+}
+
+.card__img, .card__face {
+    transition: opacity ease-in 700ms;
+}
+
+.card, .card__img, .card__face {
+    width: 110px;
+    height: 140px;
+    border-radius: 20px;
+    backface-visibility: hidden;
+}
+
+.card__img {
+    background: white no-repeat center;
+    background-size: contain;
+    transform: rotateY(180deg);
+}
+
+.card__face {
+    background-size: cover;
+}
+
+.card.opened {
+    transform: rotateY(180deg);
+}
+
+@keyframes goAway {
+    from {
+        background-color: #ccc;
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(-100px);
+    }
+}
