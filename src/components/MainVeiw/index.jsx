@@ -10,7 +10,7 @@ class MainView extends React.Component {
                 <Header/>
                 <article className='main-view-article'>
                     <header>
-                         <h2>The Memory Card Game 1.0</h2>
+                         <h2>The Memory Card Game 1.0.0</h2>
                     </header>
                     <main className='main-view-container'>
                         <ul className="detailed-rules">
